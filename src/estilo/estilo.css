@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Menu*/
+table{
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    font-size: larger;
+}
+
+tr{
+    height: 50px;
+}
+
+td{
+    width: 200px;  
+}
+
+td:hover{
+    color: #ffffff;
+}
+
+/*Cabecalho*/
+.container_cabecalho{
+    display: flex;
+    flex-direction: row ;
+    background-color: #fff2af;
+}
+
+.divLogo, .divMenu, .divLogin{    
+    width: 10px;
+    padding: 10px;
+}
+
+.divLogo{
+    flex: 1;  
+}
+
+.divMenu{
+    display: flex;
+    justify-content: center;    
+    flex:4;   
+}
+
+.divLogin{
+    flex: 1;       
+}
+
+/*Paginas*/
+
+/*Rodapé*/
+.container_rodape{
+    background-color:#fff2af;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+
