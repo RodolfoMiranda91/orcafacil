@@ -1,11 +1,15 @@
-import '../../estilo/estilo.css'
+import '../../estilo/estilo.css';
 import ItensMenu from "../menu";
+import LogoImg from '../../imagens/logo.png'
+
 
 const cabecalho = () => {
   return (
     <div className='container_cabecalho'>
 
-      <div className='divLogo'>Logo</div>
+      <div className='divLogo'>
+        <img src='../../../img/logo.png' alt='Logomarca' />
+      </div>
 
       <div className='divMenu'> 
         <ItensMenu/> 
