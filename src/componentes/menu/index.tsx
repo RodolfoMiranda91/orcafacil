@@ -8,7 +8,7 @@ const itensMenu = () => {
   let Menu4: string = "Progresso";
   let Menu5: string = "Receber";
   return (
-    <div>
+    <div className='itensMenu'>
       <table>
         <tr>
           <td><Link to="/">{Menu1}</Link></td>

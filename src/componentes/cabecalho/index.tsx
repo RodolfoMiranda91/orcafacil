@@ -1,24 +1,29 @@
+import { type } from 'os';
 import '../../estilo/estilo.css';
 import ItensMenu from "../menu";
-import LogoImg from '../../imagens/logo.png'
 
+type Props = {
+  titulo?: String;
+}
 
-const cabecalho = () => {
+function cabecalho(parametro: Props) {
   return (
-    <div className='container_cabecalho'>
+    <div>
 
+      <div className='container_cabecalho'>
       <div className='divLogo'>
-        <img src='../../../img/logo.png' alt='Logomarca' />
+        <img src='../../imagens/logo.png' alt='Logomarca' />
       </div>
+        <div className='divclass2'>
+          <ItensMenu />
+        </div>
+        <div className='divLogin'>Usuário</div>
+      </div> 
 
-      <div className='divMenu'> 
-        <ItensMenu/> 
-      </div>
-      
-      <div className='divLogin'>Usuário</div>
+        <div className='divcaminho'>{parametro.titulo}</div>
 
     </div>
-  );
+  )
 }
 
 export default cabecalho;

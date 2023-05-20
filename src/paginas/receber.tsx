@@ -5,7 +5,7 @@ import Rodape from '../componentes/rodape';
 function Receber() {    
   return (
     <div>
-      <Cabecalho/>
+      <Cabecalho titulo="Você está na Pá gina de Receber"/>
       <h1>Receber</h1>
       <Rodape/>
     </div>

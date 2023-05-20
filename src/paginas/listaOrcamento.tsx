@@ -5,7 +5,7 @@ import Rodape from '../componentes/rodape';
 function ListaOrcamento() {
   return (
     <div>
-      <Cabecalho />
+      <Cabecalho titulo="Você está na Página de Listagem de Orçamentos"/>
       <h1> Lista de Orçamento</h1>
       <Rodape />
     </div>

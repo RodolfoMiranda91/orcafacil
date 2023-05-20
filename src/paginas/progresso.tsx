@@ -5,7 +5,7 @@ import Rodape from '../componentes/rodape';
 function Progresso() {    
   return (
     <div>
-      <Cabecalho/>
+      <Cabecalho titulo="Você está na Página de Progreso do seu Serviço"/>
       <h1>Progresso</h1>
       <Rodape/>
     </div>

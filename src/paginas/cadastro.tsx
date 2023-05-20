@@ -6,7 +6,7 @@ import Rodape from '../componentes/rodape';
 function Cadastro() {    
   return (
     <div>
-      <Cabecalho/>
+      <Cabecalho titulo="Você está na Página de Cadastro"/>
       <h1> Cadastro de usuário</h1>
       <Rodape/>
     </div>
