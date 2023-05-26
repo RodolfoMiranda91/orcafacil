@@ -12,7 +12,7 @@ function cabecalho(parametro: Props) {
 
       <div className='container_cabecalho'>
       <div className='divLogo'>
-        <img src='../../imagens/logo.png' alt='Logomarca' />
+        <img className='logo' src='/logo.png' alt='Logomarca'/>
       </div>
         <div className='divclass2'>
           <ItensMenu />

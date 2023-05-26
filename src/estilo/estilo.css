@@ -13,11 +13,12 @@ table{
 }
 
 tr{
-    height: 50px;
+    height: 100px;
 }
 
 td{
-    width: 150px;  
+    width: 150px;
+    font-size: x-large;  
 }
 
 a:-webkit-any-link{
@@ -28,7 +29,7 @@ a:-webkit-any-link{
 td:hover{
     background-color: #7cb490;    
     color: #ffffff;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 /*Cabecalho*/
@@ -38,20 +39,27 @@ td:hover{
     background-color: #fff2af;
 }
 
-.divLogo, .divMenu, .divLogin, .divcaminho{    
+.divlogo, .divMenu, .divLogin, .divcaminho{    
     margin: 5px;
     padding: 5px;
 }
 
 .divLogo{
     flex: 1;
-    width: 100px;
-    height: 50px;
-    justify-content: left;  
+    width:200px;
+    height: 100px;
+    justify-content: center;
+}
+
+.logo{ 
+    margin: 5px 5px 20px 20px;
+    width: 180px;
+    height: 100px;  
 }
 
 .divMenu{
-    display: flex;
+    flex: 5;
+    align-items: center;
     justify-content: center;    
     flex:5;   
 }
